@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainmenu_actionbar_background"
+    android:orientation="vertical">
+
+    <include layout="@layout/search_background" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/mainmenu_white_background">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="20dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Privacy Policy for Blood Donor App"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:textColor="@color/material_dynamic_neutral10"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Privacy Policy :"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/material_dynamic_neutral10"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/privacy_policy"
+                android:textSize="15sp"
+                android:textColor="@color/material_dynamic_neutral10"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Information Collection and use :"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/material_dynamic_neutral10"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/information_collection"
+                android:textSize="15sp"
+                android:textColor="@color/material_dynamic_neutral10"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Security :"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/material_dynamic_neutral10"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/security"
+                android:textSize="15sp"
+                android:textColor="@color/material_dynamic_neutral10"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Changes to This Privacy Policy :"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/material_dynamic_neutral10"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/change_policy"
+                android:textSize="15sp"
+                android:textColor="@color/material_dynamic_neutral10"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="Contact us :"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/material_dynamic_neutral10"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/contact_us"
+                android:textSize="15sp"
+                android:textColor="@color/material_dynamic_neutral10"/>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

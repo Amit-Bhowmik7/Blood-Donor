@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:background="@drawable/mainmenu_actionbar_background">
+
+    <include
+        layout="@layout/ambulance_feed_background" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.92"
+        android:background="@drawable/mainmenu_background">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/driverDetails_recycler_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbars="vertical"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <!-- Button at the bottom -->
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/organizationAdd_button"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.08"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:text="Add Organization"
+        android:textAllCaps="false"
+        android:background="@drawable/buttonshape"
+        android:textColor="@android:color/white" />
+</LinearLayout>

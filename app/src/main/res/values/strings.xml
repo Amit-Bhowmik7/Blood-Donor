@@ -1,0 +1,175 @@
+<resources>
+    <string name="app_name">Blood Donor</string>
+
+    <!-- Admin Id and Password-->
+    <string name="default_id">123</string>
+    <string name="default_password">123</string>
+
+    <!-- delete account message-->
+    <string name="deleteMessage">Are you sure you want to delete your account permanently?</string>
+    <string name="admindeleteAccount">Are you sure you want to delete User account permanently?</string>
+
+    <!-- delete post message-->
+    <string name="deletePost">Are you sure you want to delete your post permanently?</string>
+    <string name="adminDeletePost">Are you sure you want to delete this post permanently?</string>
+
+    <string-array name="bloodgroupnamestring">
+        <item>A+</item>
+        <item>A-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>O+</item>
+        <item>O-</item>
+    </string-array>
+    <string-array name="bloodQuantitys">
+        <item>1 bag</item>
+        <item>2 bags</item>
+        <item>3 bags</item>
+        <item>4 bags</item>
+        <item>5 bags</item>
+    </string-array>
+
+    <string-array name="genderstring">
+        <item>Male</item>
+        <item>Female</item>
+        <item>Others</item>
+    </string-array>
+
+    <string-array name="districtnamestring">
+        <item>Bagerhat</item>
+        <item>Bandarban</item>
+        <item>Barguna</item>
+        <item>Barisal</item>
+        <item>Bhola</item>
+        <item>Bogra</item>
+        <item>Brahmanbaria</item>
+        <item>Chandpur</item>
+        <item>Chattogram</item>
+        <item>Chuadanga</item>
+        <item>Cumilla</item>
+        <item>Coxs Bazar</item>
+        <item>Dhaka</item>
+        <item>Dinajpur</item>
+        <item>Faridpur</item>
+        <item>Feni</item>
+        <item>Gaibandha</item>
+        <item>Gazipur</item>
+        <item>Gopalganj</item>
+        <item>Habiganj</item>
+        <item>Jaipurhat</item>
+        <item>Jamalpur</item>
+        <item>Jessore</item>
+        <item>Jhalokati</item>
+        <item>Jhenaidah</item>
+        <item>Khagrachari</item>
+        <item>Khulna</item>
+        <item>Kishoreganj</item>
+        <item>Kurigram</item>
+        <item>Kushtia</item>
+        <item>Lakshmipur</item>
+        <item>Lalmonirhat</item>
+        <item>Madaripur</item>
+        <item>Magura</item>
+        <item>Manikganj</item>
+        <item>Meherpur</item>
+        <item>Moulvibazar</item>
+        <item>Munshiganj</item>
+        <item>Mymensingh</item>
+        <item>Naogaon</item>
+        <item>Narail</item>
+        <item>Narayanganj </item>
+        <item>Narsingdi</item>
+        <item>Natore</item>
+        <item>Nawabganj</item>
+        <item>Netrokona</item>
+        <item>Nilphamari</item>
+        <item>Noakhali</item>
+        <item>Pabna</item>
+        <item>Panchagarh</item>
+        <item>Rangamati</item>
+        <item>Patuakhali</item>
+        <item>Pirojpur</item>
+        <item>Rajbari</item>
+        <item>Rajshahi</item>
+        <item>Rangpur</item>
+        <item>Satkhira</item>
+        <item>Shariatpur</item>
+        <item>Sherpur</item>
+        <item>Sirajganj</item>
+        <item>Sunamganj</item>
+        <item>Sylhet</item>
+        <item>Tangail</item>
+        <item>Thakurgaon</item>
+    </string-array>
+
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+
+    <string name="donation">Blood Donor App এর ডেভেলপমেন্ট চালিয়ে নিতে কন্ট্রিবিউট করুন</string>
+
+    <string name="privacy_policy">Sonargaon University students built the Blood Donor app as a Free app. \n\nThis page is used to inform visitors regarding our policies regarding the collection, use, and disclosure of Personal Information if anyone decided to use our Service.\n\nIf you choose to use our Service, then you agree to the collection and use of information in relation to this policy.</string>
+    <string name="information_collection">For a better experience, while using our Service, We may require you to provide us with certain personally identifiable information. The information that we request will be retained by us and used as described in this privacy policy.\n\nThe app does use third-party services that may collect information used to identify you.\n\nLink to the privacy policy of third-party service providers used by the app\n\n
+            •	Firebase Analytics\n\n
+            •	Firebase Crashlytics
+    </string>
+
+    <string name="security">We value your trust in providing us with your Personal Information, thus we are striving to use commercially acceptable means of protecting it. But remember that no method of transmission over the internet, or method of electronic storage is 100% secure and reliable, and we cannot guarantee its absolute security.</string>
+    <string name="change_policy">We may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically for any changes. We will notify you of any changes by posting the new Privacy Policy on this page. These changes are effective immediately after they are posted on this page.</string>
+    <string name="contact_us">If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us at\n<font color="#2196F3">amitct7@gmail.com\n\n</font></string>
+
+
+    <string name="copyright">Developed by Amit, Minhag, Misti, Sathi</string>
+    <string name="national_emergency_helpline">
+        <br>National Emergency HelpLine\n</br>
+        <br>999</br>
+    </string>
+    <string name="Emergency_hotline">
+        <br>Emergency HotLine\n</br>
+        <br>333</br>
+    </string>
+    <string name="iedcr">
+        <br>IEDCR\n</br>
+        <br>10655</br>
+    </string>
+    <string name="ambulance_service">
+        <br>Ambulance Service\n</br>
+        <br>16263</br>
+    </string>
+    <string name="দুদক_হেল্পলাইন">
+        <br>দুদক হেল্পলাইন\n</br>
+        <br>106</br>
+    </string>
+    <string name="দূরযোগের_আগাম_বার্তা">
+        <br>দূরযোগের আগাম বার্তা\n</br>
+        <br>1090</br>
+    </string>
+    <string name="নারী_ও_শিশু_নির্যাতন_প্রতিরোধ">
+        <br>নারী ও শিশু নির্যাতন প্রতিরোধ\n</br>
+        <br>109</br>
+    </string>
+    <string name="জাতীয়_মানবাধিকার_কমিশন">
+        <br>জাতীয় মানবাধিকার কমিশন\n</br>
+        <br>16108</br>
+    </string>
+    <string name="স্বাস্থ্য_বাতায়ন">
+        <br>স্বাস্থ্য বাতায়ন\n</br>
+        <br>16263</br>
+    </string>
+    <string name="বিশেষজ্ঞ_হেলথ_লাইন">
+        <br>বিশেষজ্ঞ হেলথ লাইন\n</br>
+        <br>09611677777</br>
+    </string>
+
+    <string name="marquee">
+        <font color="#CD0B0B">***</font> এটি বিনামূল্যে সেবা দানকারী একটি অ্যাপ <font color="#CD0B0B">**</font> রক্তদাতা খুঁজে পেতে যেকোনো ধরনের আর্থিক লেনদেন হতে বিরত থাকুন <font color="#CD0B0B">**</font> যেকোনো ধরনের অভিযোগ জানাতে Contact Us এ ক্লিক করুন <font color="#CD0B0B">***</font>
+    </string>
+
+    <string name="find_account">
+        Please enter <b>Mobile Number</b> that you have used in your Blood Donnor account in order to access your Mobile Number.
+    </string>
+
+    <string name="forgot_password_otp">
+        Please check your phone or a text message with your code.\nYour code is <b>6 characters</b> in length.</string>
+</resources>

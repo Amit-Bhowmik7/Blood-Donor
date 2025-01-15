@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_notification"
+        android:icon="@drawable/notification"
+        android:title="Notifications"
+        app:showAsAction="ifRoom"/>
+
+    <!--<item
+        android:id="@+id/notification"
+        android:title="My Profile"
+        app:showAsAction="always"
+        android:iconTintMode="src_over"
+        android:icon="@drawable/notification"/>
+    <item
+        android:id="@+id/profile"
+        android:title="My Profile"
+        app:showAsAction="always"
+        android:iconTintMode="src_over"
+        android:icon="@drawable/person_white"/>
+    <item
+        android:id="@+id/facebook"
+        android:title="Like us on Facebook"
+        android:titleCondensed="@string/app_name"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/rate"
+        android:title="Rate the App"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/share"
+        android:title="Share"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/logout"
+        android:title="Log Out"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/exit"
+        android:title="Exit"
+        app:showAsAction="never"/>-->
+
+</menu>

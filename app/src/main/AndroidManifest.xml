@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+    <!-- Add this permission -->
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MyApplication"
+        tools:targetApi="31">
+        <activity
+            android:name=".Admin_Users_account_Delete_Dialog"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_Users_List"
+            android:exported="false" />
+        <activity
+            android:name=".Forgot_Password_Page"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_HelpLIne_Post_Delete_Dialog"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_HelpLIne_Post_Edit"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_helpLIne_List"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_HelpLine_Menu"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_Facts_Post_Delete_Dialog"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_Facts_Post_Edit"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_Facts_List_Adapter"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_Facts_List"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_Facts_Menu"
+            android:exported="false" />
+        <activity
+            android:name=".Profile_Thalassemia_Post_Delete_Dialog"
+            android:exported="false" />
+        <activity
+            android:name=".Profile_Thalassemia_Post_Edit"
+            android:exported="false" />
+        <activity
+            android:name=".Profile_Thalassemia_List"
+            android:exported="false" />
+        <activity
+            android:name=".Profile_Ambulance_Post_Delete_Dialog"
+            android:exported="false" />
+        <activity
+            android:name=".Profile_Ambulance_Post_Edit"
+            android:exported="false" />
+        <activity
+            android:name=".Profile_Ambulance_List_Adapter"
+            android:exported="false" />
+        <activity
+            android:name=".Profile_Ambulance_List"
+            android:exported="false" />
+        <activity
+            android:name=".Profile_Organization_Post_Edit"
+            android:exported="false" />
+        <activity
+            android:name=".Profile_Organization_Post_Delete_Dialog"
+            android:exported="false" />
+        <activity
+            android:name=".Profile_Organization_List"
+            android:exported="false" />
+        <activity
+            android:name=".Profile_Blood_Request_Post_Delete_Dialog"
+            android:exported="false" />
+        <activity
+            android:name=".Profile_Blood_Request_Post_Edit"
+            android:exported="false" />
+        <activity
+            android:name=".Profile_Blood_Request_List"
+            android:exported="false" />
+        <activity
+            android:name=".Profile_Volunteer_Post_Delete_Dialog"
+            android:exported="false" />
+        <activity
+            android:name=".Profile_Volunteer_Post_Edit"
+            android:exported="false" />
+        <activity
+            android:name=".Profile_Volunteer_List"
+            android:exported="false" />
+        <activity
+            android:name=".Profile_Page"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_Blood_Request_Post_Delete_Dialog"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_Blood_Request_Post_Edit"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_Organization_Post_Delete_Dialog"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_Organization_Post_Edit"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_Ambulance_Post_Delete_Dialog"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_Ambulance_Post_Edit"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_Thalassemia_Patient_Delete_Dialog"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_Thalassemia_Patient_Edit"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_Volunteer_Post_Delete_Dialog"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_Volunter_Post_Edit"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_Thalassemia_Patient_List"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_Ambulance_List"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_Organization_List"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_Blood_Request_List"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_Volunteer_List"
+            android:exported="false" />
+        <activity
+            android:name=".Google_Map"
+            android:exported="false" />
+        <activity
+            android:name=".Thalassemia_patient_Delete_Dialog"
+            android:exported="false" />
+        <activity
+            android:name=".Thalassemia_Patient_Edit"
+            android:exported="false" />
+        <activity
+            android:name=".Ambulance_Post_Delete_Dialog"
+            android:exported="false" />
+        <activity
+            android:name=".Ambulance_Post_Edit"
+            android:exported="false" />
+        <activity
+            android:name=".Organization_Post_Delete_Dialog"
+            android:exported="false" />
+        <activity
+            android:name=".Volunteer_Post_Delete_Dialog"
+            android:exported="false" />
+        <activity
+            android:name=".Organization_Post_Edit"
+            android:exported="false" />
+        <activity
+            android:name=".Volunteer_Post_Edit"
+            android:exported="false" />
+        <activity
+            android:name=".Ads_Add"
+            android:exported="false" />
+        <activity
+            android:name=".Blood_Request_post_Delete_Dailog"
+            android:exported="false" />
+        <activity
+            android:name=".Help_Line_Add"
+            android:exported="false" />
+        <activity
+            android:name=".Blood_Request_Post_Edit"
+            android:exported="false" />
+        <activity
+            android:name=".Delete_Account_Dailog"
+            android:exported="false" />
+        <activity
+            android:name=".Donation_Person_Entry_List"
+            android:exported="false" />
+        <activity
+            android:name=".Donation_Entry_Form"
+            android:exported="false" />
+        <activity
+            android:name=".Facts_List"
+            android:exported="false" />
+        <activity
+            android:name=".Facts_Add"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_Menu"
+            android:exported="false" />
+        <activity
+            android:name=".Admin_SignIn"
+            android:exported="false" />
+        <activity
+            android:name=".Volunteer_list"
+            android:exported="false" />
+        <activity
+            android:name=".Volunteer_Add"
+            android:exported="false" />
+        <activity
+            android:name=".Donation_Person_List"
+            android:exported="false" />
+        <activity
+            android:name=".Donation_Person_Entry_Form"
+            android:exported="false" />
+        <activity
+            android:name=".Thalassemia_Patient_List"
+            android:exported="false" />
+        <activity
+            android:name=".Thalassemia_Patient_Add"
+            android:exported="false" />
+        <activity
+            android:name=".Organization_Add"
+            android:exported="false" />
+        <activity
+            android:name=".Organization_List"
+            android:exported="false" />
+        <activity
+            android:name=".PrivacyPolicy_page"
+            android:exported="false" />
+        <activity
+            android:name=".Profile_Edit"
+            android:exported="false" />
+        <activity
+            android:name=".Notification_Page"
+            android:exported="false" />
+        <activity
+            android:name=".New_Account_OTP"
+            android:exported="false" />
+        <activity
+            android:name=".Forgot_password_OTP"
+            android:exported="false" />
+        <activity
+            android:name=".Forgot_page_first"
+            android:exported="false" />
+        <activity
+            android:name=".Forgot_page_Last"
+            android:exported="false" />
+        <activity
+            android:name=".registration_3rd_page"
+            android:exported="false" />
+        <activity
+            android:name=".registration_2nd_page"
+            android:exported="false" />
+        <activity
+            android:name=".FeedBack_Form"
+            android:exported="false" />
+        <activity
+            android:name=".Contact_Form"
+            android:exported="false" />
+        <activity
+            android:name=".Help_Line_List"
+            android:exported="false" />
+        <activity
+            android:name=".Ambulance_List"
+            android:exported="false" />
+        <activity
+            android:name=".Ambulance_Add"
+            android:exported="false" />
+        <activity
+            android:name=".Blood_Request_List"
+            android:exported="false" />
+        <activity
+            android:name=".Blood_Search_Result_List"
+            android:exported="false" />
+        <activity
+            android:name=".Blood_Request_Send"
+            android:exported="false" />
+        <activity
+            android:name=".Blood_Search"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".registration_1st_page"
+            android:exported="false" />
+        <activity
+            android:name=".LogIn"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

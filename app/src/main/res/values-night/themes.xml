@@ -1,0 +1,12 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MyApplication" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+        <item name="actionOverflowButtonStyle">@style/Threedot_color</item>
+    </style>
+
+    <style name="Threedot_color" parent="Widget.AppCompat.Light.ActionButton.Overflow">
+        <item name="tint">#D8D6D8</item>
+    </style>
+</resources>

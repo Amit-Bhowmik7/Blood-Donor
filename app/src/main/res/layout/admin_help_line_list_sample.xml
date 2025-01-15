@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/mainmenu_topgrid_background"
+        android:orientation="horizontal"
+        android:padding="10dp">
+        <!-- Details Section -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:weightSum="8">
+
+            <LinearLayout
+                android:layout_weight="6.8"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/titleShow"
+                    android:text="National Help Line"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:textColor="@color/material_dynamic_neutral10"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/contactNumberShow"
+                    android:layout_marginTop="10dp"
+                    android:text="999"
+                    android:textSize="15sp"/>
+            </LinearLayout>
+            <!-- Call Icon -->
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:weightSum="2"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:layout_weight="1"
+                    android:id="@+id/callButton"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:background="#00000000"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/call"
+                    android:layout_marginBottom="15dp" />
+
+                <ImageButton
+                    android:layout_weight="1"
+                    android:id="@+id/editbutton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="0dp"
+                    android:background="#00000000"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/edit"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

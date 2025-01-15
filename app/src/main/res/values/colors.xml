@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="blue">#2196F3</color>
+    <color name="red">#CD0B0B</color>
+    <color name="ash">#605D5E</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="lightWhite">#E8E5E5</color>
+    <color name="actionbar_background">#AA0303</color>
+    <color name="button_text_color">#FFFFFF</color>
+    <color name="text_color_white">#fff</color>
+    <color name="text_hint_color_white">#B8B6B6</color>
+    <color name="text_view_color_white">#D8D6D8</color>
+    <color name="mainmenu_button_text_color">#E01717</color>
+    <color name="green">#38B304</color>
+
+</resources>
+
